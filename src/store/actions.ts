@@ -9,6 +9,12 @@ import { loginMutation } from "../graphql/index";
 const apolloClient = createProvider().defaultClient;
 
 export default {
+  /**
+   * Login the user
+   *
+   * @param param0
+   * @param loginInput
+   */
   async [actionTypes.login](
     { commit },
     loginInput: ILoginInput

@@ -3,7 +3,7 @@
  */
 
 export const mutationTypes = {
-  saveUser: "SAVE_USER",
+  saveLoginInformation: "SAVE_LOGIN_INFORMATION",
   logout: "LOGOUT"
 };
 
